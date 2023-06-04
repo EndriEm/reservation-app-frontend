@@ -1,0 +1,44 @@
+.topNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.logoImg {
+  height: 60px;
+  width: 60px;
+  background: inherit;
+}
+.logoText {
+  /* font-family: cursive; */
+  color: rgba(0, 0, 0, 0.82);
+}
+.logout {
+  margin-right: 1.4rem;
+}
+.logout button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.789);
+}
+
+.nav__button {
+  background: var(--newsletter-bg);
+  color: var(--primary-color);
+  padding: 0.8rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+#calendar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 70px 1fr;
+    background-color: #eeeeee;
+    padding-top: 2rem;
+}

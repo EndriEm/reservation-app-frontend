@@ -1,0 +1,120 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* css variables */
+:root {
+  --primary-color: #3115d0;
+  --heading-color: #0c123d;
+  --btn-primary-bg: #fff;
+  --btn-secondary-bg: #331bb9;
+  --team-card-bg: #fff;
+  --link-color: #0c123d;
+  --link-active: #816aff;
+  --card-bg: #fff;
+  --counter-color: #fff;
+  --counter-section-bg: #200a9e;
+  --body-bg: rgb(255, 255, 255);
+  --newsletter-bg: linear-gradient(
+    180deg,
+    rgba(189, 243, 255, 1) 29%,
+    rgba(193, 243, 255, 1) 50%,
+    rgba(226, 250, 255, 1) 78%
+  );
+  --testimonial-bg: #f7f7f7;
+  --font-name: "Roboto", sans-serif;
+  --small-text-color: #000;
+  --icon-bg:#151e4f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--body-bg);
+  font-family: var(--font-name);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  color: var(--heading-color);
+  font-size: 2rem;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+.container {
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.description {
+  color: var(--small-text-color);
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  margin-top: 40px;
+}
+
+.section1-wrapper {
+  margin-top: 40px;
+  display: grid;
+  background: var(--newsletter-bg);
+  align-content: center;
+  justify-content: center;
+  height: 550px;
+  width: 450px;
+  border-radius: 7px;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+/* rgb(248, 242, 242); */
+.input-GS {
+  background: rgb(252, 234, 245);  
+  border-style: none;
+  border-radius: 5px;
+  font-size: 17px;
+  width: 320px;
+  padding-left: 15px;
+  height: 50px;
+}
+
+.button-GS {
+  background: var(--btn-primary-bg);
+  color: black;
+  font-size: 17px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border-style: none;
+  width: 320px;
+  margin-top: 1.5rem;
+  height: 48px;
+}
+
